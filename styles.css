@@ -84,11 +84,44 @@ body {
     max-width: 600px;
     height: auto;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   blockquote {
     font-style: italic;
     text-align: center;
     margin: 20px;
+  }
+  /* Styles for form and submit button */
+form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3F51B5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00BCD4;
   }
   
